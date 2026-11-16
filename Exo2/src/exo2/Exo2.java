@@ -5,6 +5,7 @@
  */
 package exo2;
 
+import java.util.Scanner;
 /**
  *
  * @author bialekmaxandre
@@ -19,7 +20,10 @@ public class Exo2 {
         int result; 
         int ind;
         
-        nb = 5;
+        //nb = 5;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Entrer le nombre : "); 
+        nb = sc.nextInt();
         result = 0;
         
         ind = 1;
