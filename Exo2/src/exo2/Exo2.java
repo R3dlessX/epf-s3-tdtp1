@@ -25,6 +25,7 @@ public class Exo2 {
         ind = 1;
         while (ind <= nb) {
             result=result+ind;
+            ind++;
         }
         
         System.out.println("la somme des "+nb+" entiers est : "+ result);
